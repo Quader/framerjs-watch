@@ -1,6 +1,5 @@
 # This imports all the layers for "IONUWearableCompanion" into ionuwearablecompanionLayers3
 ionuwearablecompanionLayers3 = Framer.Importer.load "imported/IONUWearableCompanion"
-ionuwearablecompanionLayers3.blur = 2
 
 # So to hide the layer for a group named "Main Screen" you can do:
 # ionuwearablecompanionLayers3["Main Screen"].visible = false
