@@ -165,6 +165,8 @@ menuBtnLayer.states.animationOptions =
 menuBtnOpenLayer.states.add 'hidden',
 	opactiy: 0
 	scale: 0
+	rotation: -90
+	blur: 5
 
 menuBtnOpenLayer.states.animationOptions = 
 	curve: 'bezier-curve'
@@ -173,6 +175,8 @@ menuBtnOpenLayer.states.animationOptions =
 menuBtnCloseLayer.states.add 'hidden',
 	opactiy: 0
 	scale: 0
+	rotation: 90
+	blur: 5
 
 menuBtnCloseLayer.states.animationOptions = 
 	curve: 'bezier-curve'
