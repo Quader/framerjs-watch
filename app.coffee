@@ -14,7 +14,7 @@ bgLayer = new Layer
 	y: 374
 	width: 330
 	height: 328
-	blur: 1
+	blur: 2
 bgLayer.image = "images/bg.png"
 bgBlurLayer = new Layer
 	x: 636
